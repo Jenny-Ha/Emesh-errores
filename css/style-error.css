@@ -40,6 +40,9 @@ a {
   text-align: center;
   padding: 10px 30px; }
 
+p + .btn-transparent {
+  margin-top: 5px; }
+
 /*=== MAIN CONTENT  ===*/
 .main-content {
   min-height: 100vh;
@@ -72,7 +75,29 @@ a {
     margin-top: 110px;
     margin-bottom: 50px;
     text-align: right; }
-    #page-404 .error-information p + .btn-transparent {
-      margin-top: 5px; }
+
+/*===============================================
+                    ERROR 500  
+===============================================*/
+#page-500 {
+  background-image: url(../img/bg-500.jpg);
+  background-position: 0 50%;
+  padding-bottom: 40px; }
+  #page-500 .logo-emesh {
+    display: block;
+    height: 120px; }
+  #page-500 .error-title {
+    font-size: 90px;
+    margin-bottom: 25px;
+    line-height: 2.5rem; }
+    #page-500 .error-title > b {
+      letter-spacing: 6px; }
+    #page-500 .error-title > span {
+      font-size: 30px; }
+  #page-500 .error-information {
+    max-width: 455px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    text-align: right; }
 
 /*# sourceMappingURL=style-error.css.map */
