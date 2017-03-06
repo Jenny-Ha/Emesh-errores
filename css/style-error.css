@@ -3,9 +3,6 @@
 ===============================================*/
 /*  NORMALIZE  */
 @import url(normalize.css);
-* {
-  outline: 1px solid; }
-
 /*  RESET   */
 * {
   box-sizing: border-box;
